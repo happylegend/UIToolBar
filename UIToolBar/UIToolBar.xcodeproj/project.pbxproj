@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF4FFE7C17E464E4005AA972 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4FFE7B17E464E4005AA972 /* UIKit.framework */; };
+		CF4FFE7E17E464E4005AA972 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4FFE7D17E464E4005AA972 /* Foundation.framework */; };
+		CF4FFE8017E464E4005AA972 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4FFE7F17E464E4005AA972 /* CoreGraphics.framework */; };
+		CF4FFE8617E464E4005AA972 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF4FFE8417E464E4005AA972 /* InfoPlist.strings */; };
+		CF4FFE8817E464E4005AA972 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4FFE8717E464E4005AA972 /* main.m */; };
+		CF4FFE8C17E464E4005AA972 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4FFE8B17E464E4005AA972 /* AppDelegate.m */; };
+		CF4FFE8E17E464E4005AA972 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4FFE8D17E464E4005AA972 /* Default.png */; };
+		CF4FFE9017E464E4005AA972 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4FFE8F17E464E4005AA972 /* Default@2x.png */; };
+		CF4FFE9217E464E4005AA972 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4FFE9117E464E4005AA972 /* Default-568h@2x.png */; };
+		CF4FFE9517E464E4005AA972 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4FFE9417E464E4005AA972 /* ViewController.m */; };
+		CF4FFE9817E464E4005AA972 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF4FFE9617E464E4005AA972 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF4FFE7817E464E4005AA972 /* UIToolBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIToolBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4FFE7B17E464E4005AA972 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF4FFE7D17E464E4005AA972 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF4FFE7F17E464E4005AA972 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF4FFE8317E464E4005AA972 /* UIToolBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIToolBar-Info.plist"; sourceTree = "<group>"; };
+		CF4FFE8517E464E4005AA972 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF4FFE8717E464E4005AA972 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF4FFE8917E464E4005AA972 /* UIToolBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIToolBar-Prefix.pch"; sourceTree = "<group>"; };
+		CF4FFE8A17E464E4005AA972 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF4FFE8B17E464E4005AA972 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF4FFE8D17E464E4005AA972 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CF4FFE8F17E464E4005AA972 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CF4FFE9117E464E4005AA972 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF4FFE9317E464E4005AA972 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF4FFE9417E464E4005AA972 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF4FFE9717E464E4005AA972 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF4FFE7517E464E4005AA972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4FFE7C17E464E4005AA972 /* UIKit.framework in Frameworks */,
+				CF4FFE7E17E464E4005AA972 /* Foundation.framework in Frameworks */,
+				CF4FFE8017E464E4005AA972 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF4FFE6F17E464E4005AA972 = {
+			isa = PBXGroup;
+			children = (
+				CF4FFE8117E464E4005AA972 /* UIToolBar */,
+				CF4FFE7A17E464E4005AA972 /* Frameworks */,
+				CF4FFE7917E464E4005AA972 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF4FFE7917E464E4005AA972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF4FFE7817E464E4005AA972 /* UIToolBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF4FFE7A17E464E4005AA972 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF4FFE7B17E464E4005AA972 /* UIKit.framework */,
+				CF4FFE7D17E464E4005AA972 /* Foundation.framework */,
+				CF4FFE7F17E464E4005AA972 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF4FFE8117E464E4005AA972 /* UIToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				CF4FFE8A17E464E4005AA972 /* AppDelegate.h */,
+				CF4FFE8B17E464E4005AA972 /* AppDelegate.m */,
+				CF4FFE9317E464E4005AA972 /* ViewController.h */,
+				CF4FFE9417E464E4005AA972 /* ViewController.m */,
+				CF4FFE9617E464E4005AA972 /* ViewController.xib */,
+				CF4FFE8217E464E4005AA972 /* Supporting Files */,
+			);
+			path = UIToolBar;
+			sourceTree = "<group>";
+		};
+		CF4FFE8217E464E4005AA972 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF4FFE8317E464E4005AA972 /* UIToolBar-Info.plist */,
+				CF4FFE8417E464E4005AA972 /* InfoPlist.strings */,
+				CF4FFE8717E464E4005AA972 /* main.m */,
+				CF4FFE8917E464E4005AA972 /* UIToolBar-Prefix.pch */,
+				CF4FFE8D17E464E4005AA972 /* Default.png */,
+				CF4FFE8F17E464E4005AA972 /* Default@2x.png */,
+				CF4FFE9117E464E4005AA972 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF4FFE7717E464E4005AA972 /* UIToolBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4FFE9B17E464E4005AA972 /* Build configuration list for PBXNativeTarget "UIToolBar" */;
+			buildPhases = (
+				CF4FFE7417E464E4005AA972 /* Sources */,
+				CF4FFE7517E464E4005AA972 /* Frameworks */,
+				CF4FFE7617E464E4005AA972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIToolBar;
+			productName = UIToolBar;
+			productReference = CF4FFE7817E464E4005AA972 /* UIToolBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF4FFE7017E464E4005AA972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = qsji;
+			};
+			buildConfigurationList = CF4FFE7317E464E4005AA972 /* Build configuration list for PBXProject "UIToolBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF4FFE6F17E464E4005AA972;
+			productRefGroup = CF4FFE7917E464E4005AA972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF4FFE7717E464E4005AA972 /* UIToolBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF4FFE7617E464E4005AA972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4FFE8617E464E4005AA972 /* InfoPlist.strings in Resources */,
+				CF4FFE8E17E464E4005AA972 /* Default.png in Resources */,
+				CF4FFE9017E464E4005AA972 /* Default@2x.png in Resources */,
+				CF4FFE9217E464E4005AA972 /* Default-568h@2x.png in Resources */,
+				CF4FFE9817E464E4005AA972 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF4FFE7417E464E4005AA972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4FFE8817E464E4005AA972 /* main.m in Sources */,
+				CF4FFE8C17E464E4005AA972 /* AppDelegate.m in Sources */,
+				CF4FFE9517E464E4005AA972 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF4FFE8417E464E4005AA972 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF4FFE8517E464E4005AA972 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF4FFE9617E464E4005AA972 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF4FFE9717E464E4005AA972 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF4FFE9917E464E4005AA972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF4FFE9A17E464E4005AA972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF4FFE9C17E464E4005AA972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIToolBar/UIToolBar-Prefix.pch";
+				INFOPLIST_FILE = "UIToolBar/UIToolBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF4FFE9D17E464E4005AA972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIToolBar/UIToolBar-Prefix.pch";
+				INFOPLIST_FILE = "UIToolBar/UIToolBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF4FFE7317E464E4005AA972 /* Build configuration list for PBXProject "UIToolBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4FFE9917E464E4005AA972 /* Debug */,
+				CF4FFE9A17E464E4005AA972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF4FFE9B17E464E4005AA972 /* Build configuration list for PBXNativeTarget "UIToolBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4FFE9C17E464E4005AA972 /* Debug */,
+				CF4FFE9D17E464E4005AA972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF4FFE7017E464E4005AA972 /* Project object */;
+}
